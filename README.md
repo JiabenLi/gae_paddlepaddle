@@ -14,6 +14,7 @@ The code in this repo is based on or refers to https://github.com/zfjsail/gae-py
 
 # Usage
 train: python gae/train.py --data_path "your_path" for example: /lustre/S/fuqiang/gae_paddlepaddle/gae/data
+
 eval: python gae/eval.py --data_path "your_path" for example: /lustre/S/fuqiang/gae_paddlepaddle/gae/data
 
 # Results
