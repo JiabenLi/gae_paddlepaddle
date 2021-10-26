@@ -13,7 +13,8 @@ The code in this repo is based on or refers to https://github.com/zfjsail/gae-py
 * install requirements via pip install -r requirements.txt
 
 # Usage
-python gae/train.py
+train: python gae/train.py --data_path "your_path" for example: /lustre/S/fuqiang/gae_paddlepaddle/gae/data
+eval: python gae/eval.py --data_path "your_path" for example: /lustre/S/fuqiang/gae_paddlepaddle/gae/data
 
 # Results
 Due to the characteristics of model in the article, the results are fluctuant all the time, so we show the average results in results.txt.
